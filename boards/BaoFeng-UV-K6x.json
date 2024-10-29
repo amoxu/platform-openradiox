@@ -1,0 +1,29 @@
+{
+  "build": {
+    "core": "kd32m0",
+    "cpu": "cortex-m0",
+    "f_cpu": "96000000L",
+    "mcu": "KD32F328CBT6",
+    "product_line": "KD32F328xB"
+  },
+  "debug": {
+    "openocd_target": "kd32m0",
+    "svd_path": "KD32F328CB.svd"
+  },
+  "frameworks": [
+    "cmsis"
+  ],
+  "name": "BaoFeng UV-K6x (24K RAM/128K Flash)",
+  "upload": {
+    "maximum_ram_size": 24576,
+    "maximum_size": 131072,
+    "protocol": "cmsis-dap",
+    "protocols": [
+      "cmsis-dap",
+      "jlink",
+      "stlink"
+    ]
+  },
+  "url": "https://www.baofengradio.com",
+  "vendor": "BaoFeng"
+}
