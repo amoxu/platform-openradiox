@@ -1,0 +1,30 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F4 -DSTM32F407xx -DSTM32F40_41xxx",
+    "f_cpu": "168000000L",
+    "mcu": "stm32f407vgt6",
+    "product_line": "STM32F407xx"
+  },
+  "debug": {
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F40x.svd"
+  },
+  "frameworks": [
+    "cmsis"
+  ],
+  "name": "PD-668UV",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 1048576,
+    "protocol": "cmsis-dap",
+    "protocols": [
+      "cmsis-dap",
+      "jlink",
+      "stlink"
+    ]
+  },
+  "url": "",
+  "vendor": ""
+}
